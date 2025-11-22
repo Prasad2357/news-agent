@@ -56,26 +56,27 @@ Visit http://127.0.0.1:8000/docs for the OpenAPI docs.
 
 Feel free to open issues or PRs. Add tests under a `tests/` directory if you add functionality.
 
-## License
+## Structure
+# Project Structure
 
-TBD
+```text
 tech-news-agent/
 │
 ├── agent.py               # Master controller
 ├── main.py                # Entry point
 │
 ├── domains/
-│   ├── tech.py             # Tech news pipeline
-│   ├── finance.py          # Indian stock market pipeline
-│   ├── ai_research.py      # Optional: AI papers
-│   └── others.py           # Future domains
+│   ├── tech.py            # Tech news pipeline
+│   ├── finance.py         # Indian stock market pipeline
+│   ├── ai_research.py     # Optional: AI papers
+│   └── others.py          # Future domains
 │
 ├── tools/
-│   ├── scraper.py          # Modular scrapers (RSS, Reddit, APIs)
-│   ├── summarizer.py       # Summarization + keyword extraction
-│   ├── deduplication.py    # Deduplicate articles
+│   ├── scraper.py         # Modular scrapers (RSS, Reddit, APIs)
+│   ├── summarizer.py      # Summarization + keyword extraction
+│   ├── deduplication.py   # Deduplicate articles
 │   ├── topic_classifier.py # Topic tagging (Tech, Finance, AI)
-│   ├── email_sender.py     # Email service
+│   ├── email_sender.py    # Email service
 │   └── utils.py
 │
 ├── data/
@@ -84,7 +85,7 @@ tech-news-agent/
 │   └── history.json
 │
 ├── configs/
-│   ├── sources.yaml        # All RSS, API, subreddit, Twitter handles etc.
+│   ├── sources.yaml       # All RSS, API, subreddit, Twitter handles etc.
 │   └── credentials.env
 │
 └── requirements.txt

@@ -1,6 +1,6 @@
 # Tech News Agent
 
-Lightweight FastAPI-based agent to scrape, summarize, classify, and deliver technology news.
+Lightweight FastAPI-based agent to scrape, summarize, classify, and deliver technology, finance, political, sports news.
 
 **Status:** Work in progress — README placeholder with screenshot area.
 

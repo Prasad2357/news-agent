@@ -1,0 +1,9 @@
+feedparser
+beautifulsoup4
+readability-lxml
+requests
+praw
+google-generativeai
+python-dotenv
+schedule
+python-dateutil

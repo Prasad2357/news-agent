@@ -44,8 +44,8 @@ Visit http://127.0.0.1:8000/docs for the OpenAPI docs.
 
 ## Screenshot
 
-![App screenshot](static\news1.png)
-![App screenshot](static\news2.png)
+![App screenshot](static/news1.png)
+![App screenshot](static/news2.png)
 
 ## Development notes
 

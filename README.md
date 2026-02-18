@@ -88,4 +88,4 @@ tech-news-agent/
 │   ├── sources.yaml       # All RSS, API, subreddit, Twitter handles etc.
 │   └── credentials.env
 │
-└── requirements.txt
+└── requirements.
